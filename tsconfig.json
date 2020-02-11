@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-fluent-odata": [
+        "dist/ngx-fluent-odata/ngx-fluent-odata",
+        "dist/ngx-fluent-odata"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
